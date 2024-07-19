@@ -87,12 +87,12 @@ researcher = Agent(
   # model like OpenAI, Mistral, Antrophic or others (https://docs.crewai.com/how-to/LLM-Connections/)
   #
   # import os
-  # os.environ['OPENAI_MODEL_NAME'] = 'gpt-3.5-turbo'
+  # os.environ['OPENAI_MODEL_NAME'] = 'gpt-4o-mini'
   #
   # OR
   #
   # from langchain_openai import ChatOpenAI
-  # llm=ChatOpenAI(model_name="gpt-3.5", temperature=0.7)
+  # llm=ChatOpenAI(model_name="gpt-4o-mini", temperature=0.7)
 )
 writer = Agent(
   role='Tech Content Strategist',
